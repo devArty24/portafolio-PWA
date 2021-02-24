@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <title>Curso PWA Arturo</title>
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+
+        <!-- Configuracionde Metas para que el navegador reconozca que es una PWA -->
+
+            <meta name="theme-color" content="#FB314E" /> <!-- Color de la aplicacion -->
+            <meta name="MobileOptimized" content="width" /><!-- Optimizacion para movil -->
+            <meta name="HandheldFriendly" content="true" />
+
+            <!-- Etiquetas PWA para Apple -->
+                <meta name="apple-mobile-web-app-capable" content="yes" />
+                <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+                <link rel="apple-touch-icon" href="img/favicon.png" />
+                <link rel="apple-touch-image" href="img/favicon.png" />
+            <!-- End de etiquetas PWA para Apple -->
+
+            <!-- Cargar el Manifiesto -->
+                <link rel="manifest" href="manifest.json" />
+            <!-- End Manifiesto -->
+
+        <!-- End Metas -->
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="css/styles.css"/>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <header id="main-header">
+            <div class="container">
+                <div id="logo">
+                    <h1>Arturo Rodriguez Perez</h1> 
+                </div>
+    
+                <div id="menu">
+                    <ul>
+                        <li>
+                            <a href="#main-header">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#services">Servicios</a>
+                        </li>
+                        <li>
+                            <a href="#videos">Videos/Cursos</a>
+                        </li>
+                        <li>
+                            <a href="#footer">Contacto</a>
+                        </li>
+                    </ul>
+                </div> <!-- End Menu -->
+            </div> <!-- End Container -->
+        </header>
+        
+        <div class="clearfix"></div>
+
+        <div id="slider">
+            <div class="container">
+                <h2>Desarrollador web</h2>
+            </div>
+        </div> <!-- End Slider -->
+
+        <div id="services">
+            <div class="container">
+                <h2 class="subheader">Servicios</h2>
+    
+                <div class="service">
+                    <img src="img/1.png" alt=""/>
+                    <h3>Desarrollo web</h3>
+                    <p>Servicos de desarrollo web con las mas recientes tecnoligias web</p>
+    
+                </div>
+                <div class="service">
+                    <img src="img/2.png" alt=""/>
+                    <h3>Diseño web</h3>
+                    <p>Diseño de sitios y aplicaciones web moderno con SEO Organico</p>
+    
+                </div>
+                <div class="service">
+                    <img src="img/3.png" alt=""/>
+                    <h3>Backend</h3>
+                    <p>Programacion con lenguaje PHP nativo, POO, MVC.</p>
+                </div>
+            </div>
+        </div> <!-- End Services -->
+
+        <div class="clearfix"></div>
+
+        <div id="videos">
+            <div class="container">
+                <h2 class="subheader">Videos</h2>
+
+                <div class="video">
+                    <!-- Elemneto que sutituya videos -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/XXYlFuWEuKI" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>
+                    <p>Official music video by The Weeknd performing "Save Your Tears"– 'After Hours' available everywhere now</p>
+                </div>
+
+                <div class="video">
+                    <!-- Elemneto que sutituya videos -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/fHI8X4OXluQ" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>
+                    <p>Music video by The Weeknd performing Blinding Lights (Audio). © 2019 The Weeknd XO, Inc</p>
+                </div>
+
+                <div class="video">
+                    <!-- Elemneto que sutituya videos -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/4NRXx6U8ABQ" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>
+                    <p>Music video by The Weeknd performing Blinding Lights. © 2020 The Weeknd XO, Inc</p>
+                </div>
+
+            </div>
+        </div> <!-- End Videos -->
+
+        <div class="clearfix"></div>
+
+        <footer id="footer">
+            <div class="container">
+                <h2 class="subheader">Contacto</h2>
+                <p>Enviame un mensaje en cualquiera de estas redes sociales :)</p>
+
+                <ul id="networks">
+                    <li>
+                        <a href="">
+                            <img src="img/twitter.png"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/facebook.png"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/instagram.png"/>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="clearfix"></div>
+            </div>
+        </footer>
+    </body>
+</html>
