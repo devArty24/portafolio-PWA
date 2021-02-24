@@ -4,7 +4,7 @@
     "description": "Aplicacion PWA del curso de responsive y aplicaciones web",
     "background-color": "#FFF",
     "theme-color": "#FB314E",
-    "orientation": "landscape",
+    "orientation": "portrait",
     "display": "standalone",
     "start_url": "./index.html?utm_source=web_app_manifest",
     "scope": "./",
