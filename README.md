@@ -21,5 +21,3 @@ Try opening this url `https://devarty24.github.io/portafolio-PWA/` on your cell 
 ## Installation
 
 Just download the project and run your local server and open the file `index.php` that is in the root folder in your browse
-
-
