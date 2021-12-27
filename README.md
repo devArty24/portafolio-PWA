@@ -6,7 +6,7 @@
 
 ## About Project
 
-This project is for a personal portfolio and works as a PWA.
+This project is to a test for a personal portfolio and works as a PWA.
 
 Try opening this url `https://devarty24.github.io/portafolio-PWA/` on your cell phone and so it will recommend installing the PWA
 
